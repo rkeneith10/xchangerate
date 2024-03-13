@@ -75,8 +75,12 @@ const CurrencyConverter = () => {
           Convert
         </button>
         {convertedAmount !== null && (
-          <div className="text-green-600">
-            Converted Amount: {convertedAmount}
+          <div className="text-green-600 mb-4">
+            <p>
+              {" "}
+              The converted amount is:{" "}
+              <span className="font-bold"> {convertedAmount}</span>
+            </p>
           </div>
         )}
         {error && <div className="text-red-600">{error}</div>}

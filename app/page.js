@@ -32,7 +32,7 @@ const CurrencyConverter = () => {
       style={{ backgroundImage: `url(${BackImage1.src})` }}
     >
       <div className="pt-5 pl-10 pr-10 bg-white rounded-md shadow-sm sm:w-full lg:w-[440px]  h-auto flex flex-col justify-center items-center">
-        <h1 className="font-semibold mb-4">Currency exchange calculator</h1>
+        <h1 className="font-semibold mb-4">Currency Exchange Calculator</h1>
         <input
           type="number"
           value={amount}
